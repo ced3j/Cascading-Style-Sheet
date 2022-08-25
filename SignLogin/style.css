@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(224, 223, 223);
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+#parentDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#left {
+    width: 300px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 25px 50px 0 0;
+    -webkit-box-shadow: -4px 10px 96px -30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 10px 96px -30px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 10px 96px -30px rgba(0, 0, 0, 0.75);
+
+}
+
+
+#right {
+    width: 300px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 25px 0 0 50px;
+    -webkit-box-shadow: -4px 10px 96px -30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 10px 96px -30px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 10px 96px -30px rgba(0, 0, 0, 0.75);
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 0px 15px;
+}
+
+#photo {
+    width: 100%;
+    text-align: center;
+}
+
+#verification {
+    width: 65%;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+#login {
+    width: 100%;
+    padding: 10% auto 0 auto;
+
+}
+
+#login {
+    width: 100%;
+    font-size: 20px;
+}
+
+#login h3 {
+    text-align: center;
+}
+
+
+hr {
+    width: 80%;
+}
+
+
+#login div input {
+    padding-left: 10%;
+}
+
+#login div i {
+    padding-left: 10%;
+}
+
+
+.loginDiv {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+.loginDivRight {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+
+
+.loginButton {
+    width: 70%;
+    height: 20px;
+    padding: 5px 80px 5px 80px;
+    background-color: rgb(192, 215, 20);
+    font-size: 15px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.loginWith {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+#icons {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+div img {
+    width: 10%;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+.register {
+    width: 100%;
+    text-align: center;
+}
+
+.register a {
+    text-decoration: none;
+}
